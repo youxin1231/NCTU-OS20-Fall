@@ -1,0 +1,1 @@
+cmd_/home/linyouxin/Desktop/hw2/page_table_driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/linyouxin/Desktop/hw2/page_table_driver.ko /home/linyouxin/Desktop/hw2/page_table_driver.o /home/linyouxin/Desktop/hw2/page_table_driver.mod.o;  true
